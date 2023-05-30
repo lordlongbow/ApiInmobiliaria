@@ -130,7 +130,7 @@ public IActionResult Login(LoginView lv){
                 issuer: _config["TokenAuthentication:Issuer"],
                 audience: _config["TokenAuthentication:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(60),
+                expires: DateTime.Now.AddMinutes(60000),
                 signingCredentials: credenciales
             );
 
@@ -187,12 +187,12 @@ public IActionResult Login(LoginView lv){
         }
     }
 
-
 [HttpPut("actualizar/{id}")]
 [Authorize]
 public async Task<IActionResult> ActualizarPerfil(int id, [FromBody] Propietario propietario)
 {
-    var propietarioLogueado = await _context.Propietario.FirstOrDefaultAsync(x => x.Email == User.Identity.Name && x.Id == id);
+
+    var propietarioLogueado = _context.Propietario.FirstOrDefault(x => x.Email == User.Identity.Name);  
 
     if (propietarioLogueado == null)
     {
@@ -203,11 +203,18 @@ public async Task<IActionResult> ActualizarPerfil(int id, [FromBody] Propietario
     propietarioLogueado.Apellido = propietario.Apellido;
     propietarioLogueado.Domicilio = propietario.Domicilio;
     propietarioLogueado.Dni = propietario.Dni;
+    
+    _context.Propietario.Update(propietarioLogueado);
+    
+    try
+    {
+        _context.SaveChanges();
 
-    await _context.SaveChangesAsync();
-
-    var propietarioActualizado = await _context.Propietario.FirstOrDefaultAsync(x => x.Email == User.Identity.Name && x.Id == id);
-    return Ok(propietarioActualizado);
+    return Ok(propietarioLogueado);
+    }
+    catch(Exception e){
+        return BadRequest(e.Message);
+    }
 }
 
 [HttpPut("actualizar/foto/{id}")]

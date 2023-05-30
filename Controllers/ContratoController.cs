@@ -29,18 +29,21 @@ namespace api_prueba.Controllers
             }
             return null;
         }
+[HttpGet]
+[Authorize]
+public IActionResult GetMisContratos()
+{
+    var propietarioEmail = User.Identity.Name;
+    var misContratos = _context.Contrato
+        .Include(x => x.Inmueble)
+        .ThenInclude(i => i.Propietario)
+        .Where(x => x.Inmueble.Propietario.Email == propietarioEmail)
+        .ToList();
 
-        [HttpGet()]
-        [Authorize]
-        public IEnumerable<Contrato> getMisContratos(Propietario propietario){
+    return Ok(misContratos);
+}
 
-            var miscontratos = _context.Contrato.Include( x => x.Inmueble).ThenInclude( i => i.Propietario).Where(x => x.Inmueble.PropietarioId == propietario.Id).ToList();
-            if(propietario.Email == User.Identity.Name && User.Identity.IsAuthenticated){
-                
-            return miscontratos;
-            }
-            return null;
-        }
+
 
 
     }

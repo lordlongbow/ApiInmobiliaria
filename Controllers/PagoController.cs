@@ -15,16 +15,27 @@ namespace api_prueba.Controllers
             _context = contexto;
         }
 
-        [HttpGet("{id}")]
-        public Pago Get(int id){
-            return _context.Pago.Find(id);
-        }
 
-        [HttpGet()]
-        public IEnumerable<Pago> Get(Contrato contrato){
-           var pagos = _context.Pago.Where(x => x.ContratoId == contrato.ContratoId).ToList();
-            return pagos;
-        }
+[HttpGet("{id_contrato}")]
+public IEnumerable<Pago> ObtenerPagos(int id_contrato)
+{
+    var contrato = _context.Contrato.FirstOrDefault(x => x.ContratoId == id_contrato);
+    
+    if (contrato == null)
+    {
+        return null; 
+    }
+    var pagos = _context.Pago
+        .Where(x => x.ContratoId == id_contrato)
+        .Include(x => x.Contrato)
+        .ThenInclude(c => c.Inmueble)
+        .Include(x => x.Contrato)
+        .ThenInclude(c => c.Inquilino)
+        .ToList();
+;
+    return pagos;
+}
+
 
         [HttpPost("agregaPago")]
         public IActionResult Post([FromBody]Pago pago){

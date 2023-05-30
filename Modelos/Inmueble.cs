@@ -13,7 +13,7 @@ public class Inmueble
     [Column("id")]
     public int InmuebleId { get; set; }
     
-    [Required] 
+
     [Column("direccion")]
     public string Direccion { get; set; }
     
@@ -27,11 +27,11 @@ public class Inmueble
     
     [Required]
     [Column("latitud")]
-    public int Latitud { get; set; }
+    public float Latitud { get; set; }
     
     [Required]
     [Column("longitud")]
-    public int Longitud { get; set; }
+    public float Longitud { get; set; }
     
   
     [ForeignKey("TipoId")]// llave foranea del tipo
@@ -44,7 +44,7 @@ public class Inmueble
 
     [Column("id_uso")]
     public int UsoId {get;set;}
-    [Column("disponibilidad ")]
+    [Column("disponibilidad")]
     public bool Disponibilidad  {get;set;}  
 
     [ForeignKey("PropietarioId")]
@@ -53,7 +53,7 @@ public class Inmueble
     [Column("id_propietario")]
     public int PropietarioId {get;set;}
     [Column("foto_rutaInmueble")]
-    public string Foto {get; set;}
+    public string? Foto {get; set;}
 }
 
 }

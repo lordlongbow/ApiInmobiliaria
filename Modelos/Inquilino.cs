@@ -16,7 +16,7 @@ public class Inquilino{
     public String? Apellido{get;set;}
     [Column("dni")]
     public String? Dni{get;set;}
-    [Column("domicilio")]
+    [Column("direccion")]
     public String? Domicilio{get;set;}
     [Column("telefono")]
     public String? Telefono{get;set;}

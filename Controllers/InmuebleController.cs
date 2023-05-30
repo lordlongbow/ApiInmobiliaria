@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using api_prueba.Modelos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -28,11 +29,13 @@ public class InmuebleController : ControllerBase
     }
 
 
-    [HttpGet("misInmuebles")]
-    public IActionResult misInmuebles(Propietario propietario)
-    {
 
-     var misInmuebles =_context.Inmueble.Where(x => x.PropietarioId == propietario.Id && propietario.Email == User.Identity.Name && User.Identity.IsAuthenticated ).Include(x => x.Propietario).ToList();
+    [HttpGet()]
+    [Authorize]
+    public IActionResult misInmuebles()
+    {
+     var propietario = _context.Propietario.FirstOrDefault(x => x.Email == User.Identity.Name);  
+     var misInmuebles =_context.Inmueble.Where(x => x.PropietarioId == propietario.Id  ).Include(x => x.Propietario).ToList();
        if(misInmuebles == null){
            
            return BadRequest("No hay inmuebles");
@@ -43,9 +46,9 @@ public class InmuebleController : ControllerBase
     }
 
     
-    [HttpPost("crearInmueble")]
+    [HttpPost()]
     [Authorize]
-    public IActionResult Post([FromBody]Inmueble inmueble)
+    public IActionResult CargarInmueble([FromBody]Inmueble inmueble)
     {
         var propietario = _context.Propietario.Where(x => x.Email == User.Identity.Name).FirstOrDefault();
      
@@ -112,16 +115,31 @@ public async Task<IActionResult> ActualizarFoto(int id, [FromForm] IFormFile fot
     }
 
 
+[HttpPut("{id}")]
+[Authorize]
+public IActionResult CambioDisponibilidad(int id)
+{
+    var propietario = _context.Propietario.FirstOrDefault(x => x.Email == User.Identity.Name);  
+    var inmuebleDB = _context.Inmueble.FirstOrDefault(x => x.InmuebleId == id && x.PropietarioId == propietario.Id);
+    
+    if (inmuebleDB == null)
+    {
+        return NotFound("No se encontró el inmueble o no tienes permisos para modificarlo");
+    }
 
-    [HttpPut("cambioDisponibilidad/{id}")]
-    [Authorize]
-    public IActionResult cambioDisponibilidad(int id, Inmueble inmueble){
-        var inmuebleDB = _context.Inmueble.Where(x => x.InmuebleId == id && x.PropietarioId == inmueble.PropietarioId).FirstOrDefault();
-        inmuebleDB.Disponibilidad = inmueble.Disponibilidad;
-        _context.Inmueble.Update(inmuebleDB);
+    inmuebleDB.Disponibilidad = !inmuebleDB.Disponibilidad;
+    
+    try
+    {
         _context.SaveChanges();
         return Ok(inmuebleDB);
     }
+    catch (Exception ex)
+    {
+        return BadRequest($"Error al cambiar la disponibilidad del inmueble: {ex.Message}");
+    }
+}
+
 
 
 }
