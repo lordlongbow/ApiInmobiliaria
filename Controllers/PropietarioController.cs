@@ -138,7 +138,6 @@ public IActionResult Login(LoginView lv){
 
 }
 
-
     [HttpGet("perfil")]
     [Authorize]
     public async Task<IActionResult> MiPerfil()
@@ -189,32 +188,37 @@ public IActionResult Login(LoginView lv){
 
 [HttpPut("actualizar/{id}")]
 [Authorize]
-public async Task<IActionResult> ActualizarPerfil(int id, [FromBody] Propietario propietario)
+public async Task<IActionResult> ActualizarPerfil(int id, [FromBody] PropietarioActulizar propietario)
 {
 
     var propietarioLogueado = _context.Propietario.FirstOrDefault(x => x.Email == User.Identity.Name);  
 
-    if (propietarioLogueado == null)
+    if (propietarioLogueado == null || propietarioLogueado.Id != id || !User.Identity.IsAuthenticated)
     {
         return BadRequest("Datos incorrectos");
     }
 
+    if(propietario != null){
     propietarioLogueado.Nombre = propietario.Nombre;
     propietarioLogueado.Apellido = propietario.Apellido;
     propietarioLogueado.Domicilio = propietario.Domicilio;
     propietarioLogueado.Dni = propietario.Dni;
+    propietarioLogueado.Telefono = propietario.Telefono;    
     
     _context.Propietario.Update(propietarioLogueado);
+    
     
     try
     {
         _context.SaveChanges();
 
-    return Ok(propietarioLogueado);
+    return Ok(propietario);
     }
     catch(Exception e){
         return BadRequest(e.Message);
     }
+    }
+    return BadRequest("No se pudo actualizar");
 }
 
 [HttpPut("actualizar/foto/{id}")]

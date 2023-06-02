@@ -9,15 +9,15 @@ namespace api_prueba.Modelos
     [Column("id")]
     public int Id{get; set;}
     [Column("nombre")]
-    public String? Nombre{get; set;}
+    public String Nombre{get; set;}
     [Column("apellido")]
-    public String? Apellido {get; set;}
+    public String Apellido {get; set;}
     [Column("dni")]
-    public int? Dni {get; set;}
+    public int Dni {get; set;}
     [Column("direccion")]
-    public String? Domicilio{get; set;}
+    public String Domicilio{get; set;}
     [Column("telefono")]
-    public String? Telefono{get; set;}
+    public String Telefono{get; set;}
     [Column("email")]
     public String Email {get; set;}
     [Column("contraseña")]

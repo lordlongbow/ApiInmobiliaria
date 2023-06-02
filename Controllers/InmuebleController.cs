@@ -88,11 +88,10 @@ public async Task<IActionResult> ActualizarFoto(int id, [FromForm] IFormFile fot
     if (foto == null)
     {
         return BadRequest("Datos incorrectos");
-
     }
     string wwwPath = _environment.WebRootPath;
     string path = Path.Combine(wwwPath, "fotos", foto.FileName);
-    string FileName = "fotoperfil" + inmueble.InmuebleId + Path.GetExtension(foto.FileName);
+    string FileName = "fotoInmueble" + inmueble.InmuebleId + Path.GetExtension(foto.FileName);
     string nombreFoto = Path.Combine(path, FileName);
     inmueble.Foto = Path.Combine("/fotos", nombreFoto);
     _context.Inmueble.Update(inmueble);
