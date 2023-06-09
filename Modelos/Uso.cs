@@ -7,7 +7,7 @@ public class Uso{
 
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    [Column("id_uso")]
+    [Column("id")]
     public int UsoId { get; set; }
     public String Descripcion {get; set;}
 }

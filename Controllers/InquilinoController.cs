@@ -60,7 +60,7 @@ public async Task<IActionResult> cambiarFoto(int id, IFormFile foto){
     }
     string wwwPath = _environment.WebRootPath;
     string path = Path.Combine(wwwPath, "fotos", foto.FileName);
-    string FileName = "fotoperfil" + inquilinoDB.Id + Path.GetExtension(foto.FileName);
+    string FileName = "fotoperfilInquilino" + inquilinoDB.Id + Path.GetExtension(foto.FileName);
     string nombreFoto = Path.Combine(path, FileName);
     inquilinoDB.Foto = Path.Combine("/fotos", nombreFoto);
     _context.Inquilino.Update(inquilinoDB);

@@ -34,9 +34,16 @@ public class InmuebleController : ControllerBase
     [Authorize]
     public IActionResult misInmuebles()
     {
-     var propietario = _context.Propietario.FirstOrDefault(x => x.Email == User.Identity.Name);  
-     var misInmuebles =_context.Inmueble.Where(x => x.PropietarioId == propietario.Id  ).Include(x => x.Propietario).ToList();
-       if(misInmuebles == null){
+     var propietario = _context.Propietario.FirstOrDefault(x => x.Email == User.Identity.Name); 
+     var tipos = _context.Tipo.ToList();
+   var misInmuebles = _context.Inmueble
+    .Where(x => x.PropietarioId == propietario.Id)
+    .Include(x => x.Propietario).Include(x => x.Tipo).Include(x => x.Uso)
+    .ToList();
+
+    
+
+      if(misInmuebles == null){
            
            return BadRequest("No hay inmuebles");
 

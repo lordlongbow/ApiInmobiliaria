@@ -7,7 +7,7 @@ public class Tipo{
 
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    [Column("id_tipo")]
+    [Column("id")]
     public int TipoId { get; set; }
     public String Descripcion{get; set;}	
 }

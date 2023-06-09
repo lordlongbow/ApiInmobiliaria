@@ -35,9 +35,9 @@ public IActionResult GetMisContratos()
 {
     var propietarioEmail = User.Identity.Name;
     var misContratos = _context.Contrato
-        .Include(x => x.Inmueble)
-        .ThenInclude(i => i.Propietario)
         .Where(x => x.Inmueble.Propietario.Email == propietarioEmail)
+        .Include(x => x.Inquilino)
+        .Include(x => x.Inmueble.Propietario).Include(x => x.Inmueble.Tipo).Include(x => x.Inmueble.Uso)
         .ToList();
 
     return Ok(misContratos);

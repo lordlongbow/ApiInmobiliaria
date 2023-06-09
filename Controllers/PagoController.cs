@@ -28,9 +28,11 @@ public IEnumerable<Pago> ObtenerPagos(int id_contrato)
     var pagos = _context.Pago
         .Where(x => x.ContratoId == id_contrato)
         .Include(x => x.Contrato)
-        .ThenInclude(c => c.Inmueble)
-        .Include(x => x.Contrato)
-        .ThenInclude(c => c.Inquilino)
+        .Include(x => x.Contrato.Inmueble)
+        .Include(x => x.Contrato.Inmueble.Propietario)
+        .Include(x => x.Contrato.Inmueble.Tipo)
+        .Include(x => x.Contrato.Inmueble.Uso)
+        .Include(x => x.Contrato.Inquilino)
         .ToList();
 ;
     return pagos;
