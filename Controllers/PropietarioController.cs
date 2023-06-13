@@ -1,7 +1,6 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using api_prueba.Modelos;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Microsoft.AspNetCore.Mvc;
@@ -30,56 +29,6 @@ public class PropietarioController : ControllerBase
     }
 
 
-/*
-[HttpPost("login")]
-public async Task<IActionResult> Login([FromBody] Propietario propietario)
-{
-    try
-    {
-        string hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
-            password: propietario.Contraseña,
-            salt: System.Text.Encoding.ASCII.GetBytes(_config["Salt"]),
-            prf: KeyDerivationPrf.HMACSHA1,
-            iterationCount: 1000,
-            numBytesRequested: 256 / 8
-        ));
-
-        var p = await _context.Propietario.FirstOrDefaultAsync(x => x.Email == propietario.Email);
-        if (p == null || !string.Equals(p.Contraseña, hashed))
-        {
-            return BadRequest("Credenciales incorrectas");
-        }
-        else
-        {
-            var key = new SymmetricSecurityKey(
-                System.Text.Encoding.ASCII.GetBytes(_config["TokenAuthentication:SecretKey"])
-            );
-            var credenciales = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Email, p.Email),
-                new Claim("FullName", p.Nombre + " " + p.Apellido),
-                new Claim(ClaimTypes.Role, "Propietario")
-            };
-
-            var token = new JwtSecurityToken(
-                issuer: _config["TokenAuthentication:Issuer"],
-                audience: _config["TokenAuthentication:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddMinutes(60),
-                signingCredentials: credenciales
-            );
-
-            return Ok(new JwtSecurityTokenHandler().WriteToken(token));
-        }
-    }
-    catch (Exception e)
-    {
-        return BadRequest(e.Message);
-    }
-}
-
-*/
 
 [HttpGet("propietarios")]
 public async Task <IActionResult> ObtenerTodos()
@@ -186,14 +135,13 @@ public IActionResult Login(LoginView lv){
         }
     }
 
-[HttpPut("actualizar/{id}")]
+[HttpPut("actualizar")]
 [Authorize]
-public async Task<IActionResult> ActualizarPerfil(int id, [FromBody] PropietarioActulizar propietario)
+public async Task<IActionResult> ActualizarPerfil( PropietarioActualizar propietario)
 {
 
     var propietarioLogueado = _context.Propietario.FirstOrDefault(x => x.Email == User.Identity.Name);  
-
-    if (propietarioLogueado == null || propietarioLogueado.Id != id || !User.Identity.IsAuthenticated)
+    if (propietarioLogueado == null ||  !User.Identity.IsAuthenticated)
     {
         return BadRequest("Datos incorrectos");
     }
@@ -205,6 +153,11 @@ public async Task<IActionResult> ActualizarPerfil(int id, [FromBody] Propietario
     propietarioLogueado.Dni = propietario.Dni;
     propietarioLogueado.Telefono = propietario.Telefono;    
     
+    propietarioLogueado.Id= propietarioLogueado.Id;
+    propietarioLogueado.Contraseña = propietarioLogueado.Contraseña;
+    propietarioLogueado.Foto = propietarioLogueado.Foto;
+    propietarioLogueado.Email = propietarioLogueado.Email;
+
     _context.Propietario.Update(propietarioLogueado);
     
     
@@ -212,7 +165,7 @@ public async Task<IActionResult> ActualizarPerfil(int id, [FromBody] Propietario
     {
         _context.SaveChanges();
 
-    return Ok(propietario);
+        return Ok(propietarioLogueado);
     }
     catch(Exception e){
         return BadRequest(e.Message);

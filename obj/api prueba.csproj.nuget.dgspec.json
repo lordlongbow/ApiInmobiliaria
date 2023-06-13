@@ -1,25 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\api prueba.csproj": {}
+    "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\api prueba.csproj": {}
   },
   "projects": {
-    "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\api prueba.csproj": {
+    "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\api prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\api prueba.csproj",
+        "projectUniqueName": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\api prueba.csproj",
         "projectName": "api prueba",
-        "projectPath": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\api prueba.csproj",
-        "packagesPath": "C:\\Users\\POSITIVO BGH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\obj\\",
+        "projectPath": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\api prueba.csproj",
+        "packagesPath": "C:\\Users\\Javier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\POSITIVO BGH\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Javier\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

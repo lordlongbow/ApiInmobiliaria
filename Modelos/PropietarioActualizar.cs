@@ -3,11 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace api_prueba.Modelos
 {
     [Table("propietarios")]
-    public class PropietarioActulizar{
-    [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    [Column("id")]
-    public int Id{get; set;}
+    public class PropietarioActualizar{
+    
     [Column("nombre")]
     public String Nombre{get; set;}
     [Column("apellido")]
@@ -18,7 +15,5 @@ namespace api_prueba.Modelos
     public String Domicilio{get; set;}
     [Column("telefono")]
     public String Telefono{get; set;}
-    [Column("foto_ruta")]
-    public String? Foto{get; set;}
 }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "97wtBYW5mKby6vImTniJ6nyhiLXL9KRxXiekvgVplpc=",
+  "Hash": "3qg5QHgl6eLJDsYq1B1tuFBboVqqOYIcmT7GppIGDaA=",
   "Source": "api prueba",
   "BasePath": "_content/api prueba",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "api prueba\\wwwroot",
       "Source": "api prueba",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble31.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble31.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble31.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble31.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble32.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble32.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble32.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble32.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble33.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble33.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble33.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble33.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble34.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble34.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble34.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble34.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble35.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble35.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble35.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble35.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble36.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble36.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble36.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble36.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble37.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble37.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble37.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble37.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble38.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble38.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble38.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble38.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble39.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble39.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble39.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble39.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble40.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble40.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble40.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble40.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble41.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble41.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble41.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble41.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble42.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble42.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble42.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble42.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble43.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble43.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble43.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble43.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble44.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble44.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble44.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble44.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble45.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble45.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble45.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble45.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble46.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble46.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble46.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble46.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble47.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble47.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble47.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble47.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble48.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble48.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble48.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble48.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble49.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble49.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble49.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble49.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble50.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble50.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble50.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble50.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble51.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble51.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble51.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble51.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble52.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble52.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble52.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble52.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble53.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble53.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble53.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble53.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble54.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble54.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble54.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble54.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble55.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble55.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble55.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble55.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble56.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble56.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble56.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble56.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble57.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble57.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble57.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble57.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble58.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble58.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble58.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble58.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble59.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble59.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble59.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble59.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoInmueble60.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoInmueble60.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoInmueble60.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoInmueble60.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfiInquilinol1.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfiInquilinol1.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfiInquilinol1.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfiInquilinol1.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfiInquilinol2.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfiInquilinol2.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfiInquilinol2.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfiInquilinol2.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfiInquilinol3.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfiInquilinol3.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfiInquilinol3.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfiInquilinol3.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfiInquilinol4.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfiInquilinol4.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfiInquilinol4.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfiInquilinol4.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfiInquilinol5.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfiInquilinol5.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfiInquilinol5.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfiInquilinol5.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfiInquilinol6.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfiInquilinol6.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfiInquilinol6.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfiInquilinol6.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfiInquilinol7.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfiInquilinol7.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfiInquilinol7.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfiInquilinol7.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfil10.jpg",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfil10.jpg",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfil10.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfil10.jpg"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfil6.png",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfil6.png",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfil6.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfil6.png"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfil7.png",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfil7.png",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfil7.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfil7.png"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfil8.png",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfil8.png",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfil8.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\fotos\\fotoperfil8.png"
     },
     {
-      "Identity": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\fotos\\fotoperfil9.png",
+      "Identity": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\fotos\\fotoperfil9.png",
       "SourceId": "api prueba",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\POSITIVO BGH\\Desktop\\api prueba\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Javier\\Downloads\\ApiInmobiliaria-main\\ApiInmobiliaria-main\\wwwroot\\",
       "BasePath": "_content/api prueba",
       "RelativePath": "fotos/fotoperfil9.png",
       "AssetKind": "All",

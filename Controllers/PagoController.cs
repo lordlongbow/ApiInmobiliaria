@@ -1,4 +1,5 @@
 using api_prueba.Modelos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,7 +8,7 @@ namespace api_prueba.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class PagoController : ControllerBase
+  public class PagoController : ControllerBase
     {
         private readonly DataContext _context;
 
@@ -17,6 +18,7 @@ namespace api_prueba.Controllers
 
 
 [HttpGet("{id_contrato}")]
+[Authorize]
 public IEnumerable<Pago> ObtenerPagos(int id_contrato)
 {
     var contrato = _context.Contrato.FirstOrDefault(x => x.ContratoId == id_contrato);

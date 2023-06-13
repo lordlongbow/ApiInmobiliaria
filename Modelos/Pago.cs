@@ -11,8 +11,8 @@ public class Pago
     [Column("id")]
     public int  PagoId { get; set; }
     
-    public DateTime Fecha { get; set; }
-    public decimal Monto { get; set; }
+    public DateTime  Fecha { get; set; }
+    public float Monto { get; set; }
     public Contrato Contrato{ get; set; }
     [ForeignKey("ContratoId")]
     [Column("contrato_id")]
